@@ -1,0 +1,43 @@
+@import url('banner.css');
+@import url('button.css');
+@import url('cards.css');
+@import url('footer.css');
+@import url('header.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+	margin: 0;
+	font-family:'Roboto';
+	font-size: 16px;
+	}
+a{
+	text-decoration: none;}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+h1{
+	font-size: 70px;
+	padding: 0; 
+	color:#274356;
+
+}
+h2{
+	color: #CF1D66;
+}
+
+h3{
+	font-style: bold;
+	font-size: 40px
+}
+@media (min-width: 576px) {
+	.cards{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (min-width: 768px) {
+	.cards{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}

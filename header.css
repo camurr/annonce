@@ -1,0 +1,32 @@
+.header{
+	background-color: black;
+	padding: 15px;
+}
+.menu{
+	text-align: right;
+	color: white
+	font:32px;
+}
+.header{
+  background-color: black;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  position: sticky;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  position: bottom;
+  margin-top: 16px
+  
+}
+.header a:hover {
+   color: #22F029;
+}
